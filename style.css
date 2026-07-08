@@ -1433,7 +1433,13 @@ body.light-mode .theme-toggle .icon-sun  { display: block; }
   .card-title { font-size: 0.75rem; }
   .card-meta { font-size: 0.66rem; }
   .card-info { padding: 6px 8px 8px; }
-  .card-overlay { opacity: 1; background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 50%); }
+  .card-overlay { 
+    opacity: 1; 
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 50%); 
+    align-items: flex-start; 
+    justify-content: flex-end; 
+    padding: 8px; 
+  }
   .play-btn { width: 32px; height: 32px; }
   .wl-mini { width: 28px; height: 28px; font-size: 0.9rem; }
 
